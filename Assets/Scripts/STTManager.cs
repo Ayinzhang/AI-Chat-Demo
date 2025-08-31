@@ -70,11 +70,7 @@ public class STTManager : MonoBehaviour
     void Awake()
     {
         _ = InitModel(); startStopButton?.onClick.AddListener(ToggleStartStop);
-    }
-
-    void OnDestroy()
-    {
-        StopStreaming(); if (micClip != null) { Microphone.End(micDevice); Destroy(micClip); }
+        if (micDevice == null) micDevice = Microphone.devices[Microphone.devices.Length - 1];
     }
 
     void Update()
@@ -91,6 +87,11 @@ public class STTManager : MonoBehaviour
             if (ring.Count >= need) TriggerInferenceOnce();
             else nextInferTime = Time.realtimeSinceStartup + stepSec;
         }
+    }
+
+    void OnDestroy()
+    {
+        StopStreaming(); if (micClip != null) { Microphone.End(micDevice); Destroy(micClip); }
     }
 
     public async Task InitModel()
@@ -126,10 +127,9 @@ public class STTManager : MonoBehaviour
         else await StartStreaming();
     }
 
-    public async Task StartStreaming()
+    public Task StartStreaming()
     {
-        if (isStreaming) return;
-
+        if (isStreaming) return Task.CompletedTask;
         StartMic();
 
         isStreaming = true;
@@ -137,17 +137,15 @@ public class STTManager : MonoBehaviour
         UpdateButtonText();
 
         Debug.Log("[Whisper] Streaming started.");
+        return Task.CompletedTask;
     }
 
     public void StopStreaming()
     {
         if (!isStreaming) return;
 
-        StopMic();
-
-        isStreaming = false;
-        isInferencing = false;
-        UpdateButtonText();
+        isStreaming = isInferencing = false;
+        StopMic(); UpdateButtonText();
 
         Debug.Log("[Whisper] Streaming stopped.");
     }
@@ -158,9 +156,7 @@ public class STTManager : MonoBehaviour
 
         micClip = Microphone.Start(micDevice, micLoop, micMaxLengthSec, micFrequency);
         channels = micClip != null ? micClip.channels : 1;
-        lastMicPos = 0;
-        isRecording = true;
-        ring.Clear();
+        lastMicPos = 0; isRecording = true; ring.Clear();
 
         Debug.Log($"[Mic] Start: {micDevice ?? "Default"}, {micFrequency} Hz, ch={channels}");
     }
@@ -171,8 +167,7 @@ public class STTManager : MonoBehaviour
 
         Microphone.End(micDevice);
         if (micClip) Destroy(micClip);
-        micClip = null;
-        isRecording = false;
+        micClip = null; isRecording = false;
 
         Debug.Log("[Mic] Stopped.");
     }
@@ -180,9 +175,7 @@ public class STTManager : MonoBehaviour
     void AppendNewMicData()
     {
         if (micClip == null) return;
-
-        int micPos = Microphone.GetPosition(micDevice);
-        int clipSamples = micClip.samples * channels;
+        int micPos = Microphone.GetPosition(micDevice), clipSamples = micClip.samples * channels;
 
         // 尚未录到任何数据
         if (micPos == 0 && lastMicPos == 0) return;
@@ -191,29 +184,14 @@ public class STTManager : MonoBehaviour
         if (micPos >= lastMicPos)
         {
             toRead = micPos - lastMicPos;
-            if (toRead > 0)
-            {
-                var buf = new float[toRead * channels];
-                micClip.GetData(buf, lastMicPos);
-                AppendToRing(buf);
-            }
+            if (toRead > 0) { var buf = new float[toRead * channels]; micClip.GetData(buf, lastMicPos); AppendToRing(buf); }
         }
         else
         {
             // 环形缓冲回绕
             int part1 = clipSamples - lastMicPos;
-            if (part1 > 0)
-            {
-                var buf1 = new float[part1];
-                micClip.GetData(buf1, lastMicPos);
-                AppendToRing(buf1);
-            }
-            if (micPos > 0)
-            {
-                var buf2 = new float[micPos];
-                micClip.GetData(buf2, 0);
-                AppendToRing(buf2);
-            }
+            if (part1 > 0) { var buf1 = new float[part1]; micClip.GetData(buf1, lastMicPos); AppendToRing(buf1); }
+            if (micPos > 0) { var buf2 = new float[micPos]; micClip.GetData(buf2, 0); AppendToRing(buf2); }
         }
 
         lastMicPos = micPos;
@@ -222,34 +200,20 @@ public class STTManager : MonoBehaviour
     void AppendToRing(float[] data)
     {
         ring.AddRange(data);
-        int max = RingMaxSamples;
-        if (ring.Count > max)
-        {
-            int remove = ring.Count - max;
-            ring.RemoveRange(0, remove);
-        }
+        if (ring.Count > RingMaxSamples) ring.RemoveRange(0, ring.Count - RingMaxSamples);
     }
 
     void TriggerInferenceOnce()
     {
         // 简单VAD：若最近 vadLastSec 语音能量低于阈值则跳过本次推理
-        if (useVad && !HasVoiceActivity())
-        {
-            nextInferTime = Time.realtimeSinceStartup + stepSec;
-            return;
-        }
+        if (useVad && !HasVoiceActivity()) { nextInferTime = Time.realtimeSinceStartup + stepSec; return; }
 
         // 取窗口样本
         int windowSamples = Mathf.Min(ring.Count, Mathf.CeilToInt(micMaxLengthSec * micFrequency * channels));
-        if (windowSamples <= 0)
-        {
-            nextInferTime = Time.realtimeSinceStartup + stepSec;
-            return;
-        }
+        if (windowSamples <= 0) { nextInferTime = Time.realtimeSinceStartup + stepSec; return; }
 
-        var segment = new float[windowSamples];
-        int start = ring.Count - windowSamples;
-        ring.CopyTo(start, segment, 0, windowSamples);
+        float[] segment = new float[windowSamples];
+        ring.CopyTo(ring.Count - windowSamples, segment, 0, windowSamples);
 
         isInferencing = true; _ = RunInferenceAsync(segment, micFrequency, channels);
         nextInferTime = Time.realtimeSinceStartup + stepSec;
@@ -258,16 +222,9 @@ public class STTManager : MonoBehaviour
     bool HasVoiceActivity()
     {
         int vadSamples = Mathf.Min(ring.Count, Mathf.CeilToInt(vadLastSec * micFrequency * channels));
-        if (vadSamples <= 0) return false;
-
-        double sumSq = 0;
-        for (int i = ring.Count - vadSamples; i < ring.Count; i++)
-        {
-            float v = ring[i];
-            sumSq += v * v;
-        }
-        double rms = Math.Sqrt(sumSq / vadSamples);
-        return rms >= vadRmsThreshold;
+        if (vadSamples <= 0) return false; double sumSq = 0;
+        for (int i = ring.Count - vadSamples; i < ring.Count; i++) sumSq += ring[i] * ring[i];
+        return Math.Sqrt(sumSq / vadSamples) >= vadRmsThreshold;
     }
 
     async Task RunInferenceAsync(float[] samples, int frequency, int channels)
@@ -276,22 +233,10 @@ public class STTManager : MonoBehaviour
         {
             var res = await whisper.GetTextAsync(samples, frequency, channels, wparams);
             string text = res != null ? res.Result : "";
-
-            // 将结果派发回主线程（避免跨线程操作UI）
-            mainThread.Enqueue(() =>
-            {
-                currentText = text;
-                if (outputField != null) outputField.text = currentText;
-            });
+            mainThread.Enqueue(() => { currentText = text; if (outputField != null) outputField.text = currentText; });// 将结果派发回主线程（避免跨线程操作UI）
         }
-        catch (Exception e)
-        {
-            mainThread.Enqueue(() => Debug.LogException(e));
-        }
-        finally
-        {
-            isInferencing = false;
-        }
+        catch (Exception e) { mainThread.Enqueue(() => Debug.LogException(e)); }
+        finally { isInferencing = false; }
     }
 
     void UpdateButtonText()

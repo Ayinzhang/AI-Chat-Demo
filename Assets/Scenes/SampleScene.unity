@@ -588,7 +588,7 @@ MonoBehaviour:
   m_InputType: 0
   m_AsteriskChar: 42
   m_KeyboardType: 0
-  m_LineType: 0
+  m_LineType: 1
   m_HideMobileInput: 0
   m_CharacterValidation: 0
   m_CharacterLimit: 0
@@ -976,8 +976,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb195ee96fe16854295780231446a1db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  modelType: 4
-  useGpu: 0
+  modelType: 2
+  useGpu: 1
   flashAttention: 0
   language: zh
   translateToEnglish: 0
@@ -985,7 +985,6 @@ MonoBehaviour:
   useVad: 1
   vadLastSec: 1
   vadRmsThreshold: 0.005
-  updatePrompt: 0
   noContext: 1
   singleSegment: 0
   micFrequency: 16000
@@ -995,6 +994,7 @@ MonoBehaviour:
   startStopButton: {fileID: 1393481155}
   startStopButtonText: {fileID: 1389585923}
   outputField: {fileID: 1105623763}
+  currentText: 
 --- !u!4 &1949970516
 Transform:
   m_ObjectHideFlags: 0
@@ -1085,7 +1085,7 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 0
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
