@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Unity Projects\\AI-Chat-Demo\\",
+  "WorkspaceRootPath": "D:\\Unity Projects\\AI-Chat-Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|E:\\Unity Projects\\AI-Chat-Demo\\assets\\scripts\\sttmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|d:\\unity projects\\ai-chat-demo\\assets\\scripts\\sttmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sttmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|E:\\Unity Projects\\AI-Chat-Demo\\assets\\samples\\2 - microphone\\microphonedemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|D:\\Unity Projects\\AI-Chat-Demo\\assets\\samples\\2 - microphone\\microphonedemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\2 - microphone\\microphonedemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity Projects\\AI-Chat-Demo\\Library\\PackageCache\\com.whisper.unity\\Runtime\\WhisperManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity Projects\\AI-Chat-Demo\\Library\\PackageCache\\com.whisper.unity\\Runtime\\WhisperManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.whisper.unity\\Runtime\\WhisperManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity Projects\\AI-Chat-Demo\\Library\\PackageCache\\com.whisper.unity\\Runtime\\Utils\\MicrophoneRecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity Projects\\AI-Chat-Demo\\Library\\PackageCache\\com.whisper.unity\\Runtime\\Utils\\MicrophoneRecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.whisper.unity\\Runtime\\Utils\\MicrophoneRecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "STTManager.cs",
-              "DocumentMoniker": "E:\\Unity Projects\\AI-Chat-Demo\\Assets\\Scripts\\STTManager.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Scripts\\STTManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\STTManager.cs",
-              "ToolTip": "E:\\Unity Projects\\AI-Chat-Demo\\Assets\\Scripts\\STTManager.cs",
+              "ToolTip": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Scripts\\STTManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\STTManager.cs",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAAALMAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-30T15:03:57.145Z",
               "EditorCaption": ""
@@ -45,9 +45,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "WhisperManager.cs",
-              "DocumentMoniker": "E:\\Unity Projects\\AI-Chat-Demo\\Library\\PackageCache\\com.whisper.unity\\Runtime\\WhisperManager.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Library\\PackageCache\\com.whisper.unity\\Runtime\\WhisperManager.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.whisper.unity\\Runtime\\WhisperManager.cs",
-              "ToolTip": "E:\\Unity Projects\\AI-Chat-Demo\\Library\\PackageCache\\com.whisper.unity\\Runtime\\WhisperManager.cs",
+              "ToolTip": "D:\\Unity Projects\\AI-Chat-Demo\\Library\\PackageCache\\com.whisper.unity\\Runtime\\WhisperManager.cs",
               "RelativeToolTip": "Library\\PackageCache\\com.whisper.unity\\Runtime\\WhisperManager.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -58,9 +58,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MicrophoneRecord.cs",
-              "DocumentMoniker": "E:\\Unity Projects\\AI-Chat-Demo\\Library\\PackageCache\\com.whisper.unity\\Runtime\\Utils\\MicrophoneRecord.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Library\\PackageCache\\com.whisper.unity\\Runtime\\Utils\\MicrophoneRecord.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.whisper.unity\\Runtime\\Utils\\MicrophoneRecord.cs",
-              "ToolTip": "E:\\Unity Projects\\AI-Chat-Demo\\Library\\PackageCache\\com.whisper.unity\\Runtime\\Utils\\MicrophoneRecord.cs",
+              "ToolTip": "D:\\Unity Projects\\AI-Chat-Demo\\Library\\PackageCache\\com.whisper.unity\\Runtime\\Utils\\MicrophoneRecord.cs",
               "RelativeToolTip": "Library\\PackageCache\\com.whisper.unity\\Runtime\\Utils\\MicrophoneRecord.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -71,14 +71,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MicrophoneDemo.cs",
-              "DocumentMoniker": "E:\\Unity Projects\\AI-Chat-Demo\\Assets\\Samples\\2 - Microphone\\MicrophoneDemo.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Samples\\2 - Microphone\\MicrophoneDemo.cs",
               "RelativeDocumentMoniker": "Assets\\Samples\\2 - Microphone\\MicrophoneDemo.cs",
-              "ToolTip": "E:\\Unity Projects\\AI-Chat-Demo\\Assets\\Samples\\2 - Microphone\\MicrophoneDemo.cs",
+              "ToolTip": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Samples\\2 - Microphone\\MicrophoneDemo.cs",
               "RelativeToolTip": "Assets\\Samples\\2 - Microphone\\MicrophoneDemo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T15:02:12.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-30T15:02:12.251Z"
             }
           ]
         }
