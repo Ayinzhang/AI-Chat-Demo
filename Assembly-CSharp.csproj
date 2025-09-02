@@ -62,127 +62,56 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Samples\4 - Subtitles\SubtitlesDemo.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\LLM\Baidu\KnowledgeBaidu.cs" />
     <Compile Include="Assets\Scripts\STTManager.cs" />
     <Compile Include="Assets\LLMUnity\Samples\KnowledgeBaseGame\KnowledgeBaseGame.cs" />
-    <Compile Include="Assets\AIChatTookit\Tool\Webgl\webglTextInput\WebGLSupport\WebGLInput\Wrapper\IInputField.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\Chat\ChatSample.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\Chat\RTSpeechHandler.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\History\ChatPrefab.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\TTS&amp;&amp;STT\Azure\WavUtility.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\TTS&amp;&amp;STT\Azure\AzureTextToSpeech.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\Chat\VoiceInputs.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\WOV\UnityWakeOnVoice.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\TTS&amp;&amp;STT\Whisper\WhisperSpeechToText.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\TTS&amp;&amp;STT\GPT-SoVITS\GPTSoVITSTextToSpeech.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\LLM\LLM.cs" />
-    <Compile Include="Assets\AIChatTookit\Tool\Webgl\webglVoiceInput\Scripts\SignalManager.cs" />
-    <Compile Include="Assets\AIChatTookit\Tool\Webgl\webglTextInput\WebGLSupport\WebGLInput\Wrapper\WrappedTMPInputField.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\TTS&amp;&amp;STT\TTS.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\LLM\chatGLM\chatGLM.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\LLM\Baidu\AppBuilderBaidu.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\TTS&amp;&amp;STT\BaiduAI\BaiduSettings.cs" />
+    <Compile Include="Assets\Scripts\AutoGrowInputField.cs" />
     <Compile Include="Assets\LLMUnity\Samples\FunctionCalling\FunctionCalling.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\TTS&amp;&amp;STT\ALiYun\ALiYunSpeechToText.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\TTS&amp;&amp;STT\Xunfei\XunfeiSpeechToText.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\LLM\DeepSeek\ChatDeepSeek.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\LLM\Baidu\ChatBaidu.cs" />
     <Compile Include="Assets\LLMUnity\Samples\RAG\RAG_Sample.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\LLM\chatGPT\chatGPT.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\Chat\ChatSetting.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\TTS&amp;&amp;STT\GPT-SoVITS\GPTSoVITSFASTAPI.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\TTS&amp;&amp;STT\STT.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\TTS&amp;&amp;STT\Azure\AzureSettings.cs" />
     <Compile Include="Assets\LLMUnity\Samples\RAG\RAGUtils.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\TTS&amp;&amp;STT\ALiYun\ALiYunTextToSpeech.cs" />
     <Compile Include="Assets\LLMUnity\Samples\MultipleCharacters\MultipleCharacters.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\TTS&amp;&amp;STT\Azure\AzureSpeechToText.cs" />
-    <Compile Include="Assets\AIChatTookit\Tool\Webgl\webglTextInput\WebGLSupport\WebGLInput\Wrapper\WrappedInputField.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\TTS&amp;&amp;STT\Xunfei\XunfeiTextToSpeech.cs" />
     <Compile Include="Assets\Samples\2 - Microphone\MicrophoneDemo.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\TTS&amp;&amp;STT\OpenAI\OpenAISpeechToText.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\LLM\RWKV\chatRWKV.cs" />
     <Compile Include="Assets\Samples\3 - Languages\LanguagesDemo.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\WOV\WOV.cs" />
-    <Compile Include="Assets\AIChatTookit\Tool\Webgl\webglTextInput\WebGLSupport\WebGLInput\WebGLInput.cs" />
-    <Compile Include="Assets\AIChatTookit\Tool\LipSync\Scripts\AudioToLipSample.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\LLM\QW\ChatQW.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\Expression\BlinkController.cs" />
-    <Compile Include="Assets\AIChatTookit\Tool\Webgl\webglVoiceInput\Scripts\WAV.cs" />
-    <Compile Include="Assets\AIChatTookit\Tool\Webgl\webglTextInput\WebGLSupport\WebGLWindow\WebGLWindow.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\Expression\AudioMouthController.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\Expression\Audio2LipScript.cs" />
     <Compile Include="Assets\LLMUnity\Samples\ChatBot\Bubble.cs" />
-    <Compile Include="Assets\AIChatTookit\Tool\Webgl\webglTextInput\WebGLSupport\WebGLInput\Detail\RebuildChecker.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\TTS&amp;&amp;STT\Xunfei\XunfeiSettings.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\LLM\SparkAI\ChatSpark.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\TTS&amp;&amp;STT\OpenAI\OpenAITextToSpeech.cs" />
     <Compile Include="Assets\Samples\1 - Audio Clip\AudioClipDemo.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\LLM\chatGLM\ChatZhipu.cs" />
-    <Compile Include="Assets\AIChatTookit\Tool\LipSync\Scripts\OVRLipSync.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\Chat\RTChatSample.cs" />
     <Compile Include="Assets\LLMUnity\Samples\ChatBot\ChatBot.cs" />
-    <Compile Include="Assets\AIChatTookit\Tool\Webgl\webglTextInput\WebGLSupport\WebGLInput\Mobile\WebGLInputMobile.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\TTS&amp;&amp;STT\BaiduAI\BaiduTextToSpeech.cs" />
     <Compile Include="Assets\Samples\5 - Streaming\StreamingSampleMic.cs" />
     <Compile Include="Assets\LLMUnity\Samples\RAG\RAGAndLLM_Sample.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\TTS&amp;&amp;STT\BaiduAI\BaiduSpeechToText.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\LLM\Ollama\ChatOllama.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\TTS&amp;&amp;STT\ALiYun\AliTokenHelper.cs" />
-    <Compile Include="Assets\AIChatTookit\Scripts\LLM\chatGPT\chatgptTurbo.cs" />
+    <Compile Include="Assets\Scripts\LLMManager.cs" />
     <Compile Include="Assets\LLMUnity\Samples\SimpleInteraction\SimpleInteraction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-cuda-cu12.2.0\llama.cpp.LICENSE.txt" />
-    <None Include="Assets\AIChatTookit\Mesh\甘雨\甘雨\甘雨.xml" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-noavx\undreamai_windows-noavx.dll" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-noavx\llama.cpp.LICENSE.txt" />
-    <None Include="Assets\AIChatTookit\Mesh\刻晴\刻晴\readme【一定要看】.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-cuda-cu12.2.0\llamafile.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-avx2\llama.cpp.LICENSE.txt" />
-    <None Include="Assets\AIChatTookit\Mesh\八重神子\八重神子\Readme.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\macos-acc\llama.cpp.LICENSE.txt" />
-    <None Include="Assets\AIChatTookit\Mesh\申鹤\申鹤\申鹤.MMD4Mecanim.xml" />
-    <None Include="Assets\AIChatTookit\Mesh\胡桃\胡桃\胡桃.MMD4Mecanim.xml" />
     <None Include="Assets\LLMUnity\Samples\RAG\hamlet_project_gutenberg.txt" />
-    <None Include="Assets\AIChatTookit\Mesh\甘雨\甘雨\甘雨.MMD4Mecanim.xml" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-avx2\llama.cpp.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-avx512\llama.cpp.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-vulkan\llama.cpp.LICENSE.txt" />
-    <None Include="Assets\AIChatTookit\Font\FontShader.shader" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-hip\undreamai_windows-hip.dll" />
-    <None Include="Assets\AIChatTookit\Mesh\刻晴\刻晴\刻晴.MMD4Mecanim.xml" />
-    <None Include="Assets\AIChatTookit\Mesh\胡桃\胡桃\readme【一定要看】.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-avx\llama.cpp.LICENSE.txt" />
-    <None Include="Assets\AIChatTookit\Plugin\Newtonsoft.Json.dll" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-hip\llama.cpp.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\android\llama.cpp.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-avx\undreamai_windows-avx.dll" />
-    <None Include="Assets\AIChatTookit\Mesh\八重神子\八重神子\YaeMiko.MMD4Mecanim.xml" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-cuda-cu12.2.0\llama.cpp.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-archchecker\archchecker.dll" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-noavx\llama.cpp.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-vulkan\vulkan-1.dll" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-hip\llama.cpp.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-vulkan\undreamai_windows-vulkan.dll" />
-    <None Include="Assets\AIChatTookit\Mesh\申鹤\申鹤\申鹤.xml" />
     <None Include="Assets\LLMUnity\Resources\usearch\windows\libusearch_c.dll" />
-    <None Include="Assets\AIChatTookit\Mesh\申鹤\申鹤\readme【一定要看】.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-cuda-cu12.2.0\llamafile.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-avx2\undreamai_windows-avx2.dll" />
-    <None Include="Assets\AIChatTookit\Mesh\甘雨\甘雨\readme【一定要看】.txt" />
-    <None Include="Assets\AIChatTookit\Mesh\刻晴\刻晴\刻晴.xml" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-avx512\llama.cpp.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\ios\llama.cpp.LICENSE.txt" />
-    <None Include="Assets\AIChatTookit\Mesh\胡桃\胡桃\胡桃.xml" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\visionos\llama.cpp.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\macos-no_acc\llama.cpp.LICENSE.txt" />
-    <None Include="Assets\AIChatTookit\Mesh\八重神子\八重神子\YaeMiko.xml" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-vulkan\llama.cpp.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-avx512\undreamai_windows-avx512.dll" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-cuda-cu12.2.0\undreamai_windows-cuda-cu12.2.0.dll" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-avx\llama.cpp.LICENSE.txt" />
-    <None Include="Assets\AIChatTookit\Tool\LipSync\Plugins\Win64\OVRLipSync.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -655,10 +584,6 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets\AIChatTookit\Plugin\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">

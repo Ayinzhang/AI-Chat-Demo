@@ -48,7 +48,6 @@ public class STTManager : MonoBehaviour
 
     [Header("UI")]
     public Button startStopButton;
-    public Text startStopButtonText;
     public InputField outputField; // 用于展示增量文本（可为空）
     public string currentText = "";// 当前识别文本（增量）
 
@@ -134,7 +133,7 @@ public class STTManager : MonoBehaviour
 
         isStreaming = true;
         nextInferTime = Time.realtimeSinceStartup + stepSec;
-        UpdateButtonText();
+        startStopButton.onClick.Invoke();
 
         Debug.Log("[Whisper] Streaming started.");
         return Task.CompletedTask;
@@ -145,7 +144,7 @@ public class STTManager : MonoBehaviour
         if (!isStreaming) return;
 
         isStreaming = isInferencing = false;
-        StopMic(); UpdateButtonText();
+        StopMic(); startStopButton.onClick.Invoke();
 
         Debug.Log("[Whisper] Streaming stopped.");
     }
@@ -237,10 +236,5 @@ public class STTManager : MonoBehaviour
         }
         catch (Exception e) { mainThread.Enqueue(() => Debug.LogException(e)); }
         finally { isInferencing = false; }
-    }
-
-    void UpdateButtonText()
-    {
-        if (startStopButtonText != null) startStopButtonText.text = isStreaming ? "Stop" : "Start";
     }
 }

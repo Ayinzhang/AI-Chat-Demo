@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud.Unum.USearch", "Cloud
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "undream.llmunity.Runtime.Tests", "undream.llmunity.Runtime.Tests.csproj", "{9C3EB431-AF86-ED61-D85F-9E8E4C52BD65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{95F4CE2B-FB18-2CC5-C77E-CB86BF2784F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{9C3EB431-AF86-ED61-D85F-9E8E4C52BD65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C3EB431-AF86-ED61-D85F-9E8E4C52BD65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C3EB431-AF86-ED61-D85F-9E8E4C52BD65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95F4CE2B-FB18-2CC5-C77E-CB86BF2784F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F4CE2B-FB18-2CC5-C77E-CB86BF2784F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F4CE2B-FB18-2CC5-C77E-CB86BF2784F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F4CE2B-FB18-2CC5-C77E-CB86BF2784F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

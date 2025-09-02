@@ -9,7 +9,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{F0DA78BA-96A6-A53D-1AF9-B318FB3C3E71}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -62,7 +63,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\LLMUnity\Runtime\LLMEmbedder.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\ResumingWebClient.cs" />
+    <Compile Include="Assets\LLMUnity\Runtime\ResumingWebClient.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Assets\LLMUnity\Runtime\LLMInterface.cs" />
     <Compile Include="Assets\LLMUnity\Runtime\LLMManager.cs" />
     <Compile Include="Assets\LLMUnity\Runtime\LLMCaller.cs" />
@@ -589,10 +592,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets\AIChatTookit\Plugin\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="unityplastic">

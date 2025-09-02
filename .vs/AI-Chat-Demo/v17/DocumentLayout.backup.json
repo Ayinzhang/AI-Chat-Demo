@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\Unity Projects\\AI-Chat-Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|d:\\unity projects\\ai-chat-demo\\assets\\scripts\\sttmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sttmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|D:\\Unity Projects\\AI-Chat-Demo\\assets\\scripts\\llmmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\llmmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|D:\\Unity Projects\\AI-Chat-Demo\\assets\\samples\\2 - microphone\\microphonedemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\2 - microphone\\microphonedemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95F4CE2B-FB18-2CC5-C77E-CB86BF2784F5}|Assembly-CSharp-Editor.csproj|d:\\unity projects\\ai-chat-demo\\assets\\editor\\llmeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95F4CE2B-FB18-2CC5-C77E-CB86BF2784F5}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\llmeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity Projects\\AI-Chat-Demo\\Library\\PackageCache\\com.whisper.unity\\Runtime\\WhisperManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.whisper.unity\\Runtime\\WhisperManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0DA78BA-96A6-A53D-1AF9-B318FB3C3E71}|undream.llmunity.Runtime.csproj|D:\\Unity Projects\\AI-Chat-Demo\\assets\\llmunity\\runtime\\llmcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DA78BA-96A6-A53D-1AF9-B318FB3C3E71}|undream.llmunity.Runtime.csproj|solutionrelative:assets\\llmunity\\runtime\\llmcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity Projects\\AI-Chat-Demo\\Library\\PackageCache\\com.whisper.unity\\Runtime\\Utils\\MicrophoneRecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.whisper.unity\\Runtime\\Utils\\MicrophoneRecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|D:\\Unity Projects\\AI-Chat-Demo\\assets\\llmunity\\samples\\simpleinteraction\\simpleinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|solutionrelative:assets\\llmunity\\samples\\simpleinteraction\\simpleinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DA78BA-96A6-A53D-1AF9-B318FB3C3E71}|undream.llmunity.Runtime.csproj|D:\\Unity Projects\\AI-Chat-Demo\\assets\\llmunity\\runtime\\llm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DA78BA-96A6-A53D-1AF9-B318FB3C3E71}|undream.llmunity.Runtime.csproj|solutionrelative:assets\\llmunity\\runtime\\llm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6029AADA-E50A-1D35-DD4B-C8CBCBAD852A}|undream.llmunity.Editor.csproj|D:\\Unity Projects\\AI-Chat-Demo\\assets\\llmunity\\editor\\llmeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6029AADA-E50A-1D35-DD4B-C8CBCBAD852A}|undream.llmunity.Editor.csproj|solutionrelative:assets\\llmunity\\editor\\llmeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6029AADA-E50A-1D35-DD4B-C8CBCBAD852A}|undream.llmunity.Editor.csproj|d:\\unity projects\\ai-chat-demo\\assets\\llmunity\\editor\\propertyeditor.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6029AADA-E50A-1D35-DD4B-C8CBCBAD852A}|undream.llmunity.Editor.csproj|solutionrelative:assets\\llmunity\\editor\\propertyeditor.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +38,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "STTManager.cs",
-              "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Scripts\\STTManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\STTManager.cs",
-              "ToolTip": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Scripts\\STTManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\STTManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAhwF0AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "PropertyEditor.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\LLMUnity\\Editor\\PropertyEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\LLMUnity\\Editor\\PropertyEditor.cs",
+              "ToolTip": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\LLMUnity\\Editor\\PropertyEditor.cs",
+              "RelativeToolTip": "Assets\\LLMUnity\\Editor\\PropertyEditor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T15:03:57.145Z",
+              "WhenOpened": "2025-09-02T10:05:43.826Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WhisperManager.cs",
-              "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Library\\PackageCache\\com.whisper.unity\\Runtime\\WhisperManager.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.whisper.unity\\Runtime\\WhisperManager.cs",
-              "ToolTip": "D:\\Unity Projects\\AI-Chat-Demo\\Library\\PackageCache\\com.whisper.unity\\Runtime\\WhisperManager.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.whisper.unity\\Runtime\\WhisperManager.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "LLMEditor.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\LLMUnity\\Editor\\LLMEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\LLMUnity\\Editor\\LLMEditor.cs",
+              "ToolTip": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\LLMUnity\\Editor\\LLMEditor.cs",
+              "RelativeToolTip": "Assets\\LLMUnity\\Editor\\LLMEditor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T15:02:37.438Z",
+              "WhenOpened": "2025-09-02T08:33:28.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MicrophoneRecord.cs",
-              "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Library\\PackageCache\\com.whisper.unity\\Runtime\\Utils\\MicrophoneRecord.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.whisper.unity\\Runtime\\Utils\\MicrophoneRecord.cs",
-              "ToolTip": "D:\\Unity Projects\\AI-Chat-Demo\\Library\\PackageCache\\com.whisper.unity\\Runtime\\Utils\\MicrophoneRecord.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.whisper.unity\\Runtime\\Utils\\MicrophoneRecord.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
+              "Title": "SimpleInteraction.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\LLMUnity\\Samples\\SimpleInteraction\\SimpleInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\LLMUnity\\Samples\\SimpleInteraction\\SimpleInteraction.cs",
+              "ToolTip": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\LLMUnity\\Samples\\SimpleInteraction\\SimpleInteraction.cs",
+              "RelativeToolTip": "Assets\\LLMUnity\\Samples\\SimpleInteraction\\SimpleInteraction.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T15:02:14.403Z",
+              "WhenOpened": "2025-09-02T08:38:18.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LLMCharacter.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\LLMUnity\\Runtime\\LLMCharacter.cs",
+              "RelativeDocumentMoniker": "Assets\\LLMUnity\\Runtime\\LLMCharacter.cs",
+              "ToolTip": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\LLMUnity\\Runtime\\LLMCharacter.cs",
+              "RelativeToolTip": "Assets\\LLMUnity\\Runtime\\LLMCharacter.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAMUCAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T08:31:26.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LLM.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\LLMUnity\\Runtime\\LLM.cs",
+              "RelativeDocumentMoniker": "Assets\\LLMUnity\\Runtime\\LLM.cs",
+              "ToolTip": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\LLMUnity\\Runtime\\LLM.cs",
+              "RelativeToolTip": "Assets\\LLMUnity\\Runtime\\LLM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T08:31:21.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MicrophoneDemo.cs",
-              "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Samples\\2 - Microphone\\MicrophoneDemo.cs",
-              "RelativeDocumentMoniker": "Assets\\Samples\\2 - Microphone\\MicrophoneDemo.cs",
-              "ToolTip": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Samples\\2 - Microphone\\MicrophoneDemo.cs",
-              "RelativeToolTip": "Assets\\Samples\\2 - Microphone\\MicrophoneDemo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAJAAAAAAAAAA==",
+              "Title": "LLMEditor.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Editor\\LLMEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\LLMEditor.cs",
+              "ToolTip": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Editor\\LLMEditor.cs",
+              "RelativeToolTip": "Assets\\Editor\\LLMEditor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T15:02:12.251Z"
+              "WhenOpened": "2025-09-02T04:29:40.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LLMManager.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Scripts\\LLMManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LLMManager.cs",
+              "ToolTip": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Scripts\\LLMManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LLMManager.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T03:58:38.265Z",
+              "EditorCaption": ""
             }
           ]
         }
