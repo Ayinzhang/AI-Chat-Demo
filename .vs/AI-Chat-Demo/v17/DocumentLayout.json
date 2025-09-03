@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Unity Projects\\AI-Chat-Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95F4CE2B-FB18-2CC5-C77E-CB86BF2784F5}|Assembly-CSharp-Editor.csproj|d:\\unity projects\\ai-chat-demo\\assets\\editor\\llmeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95F4CE2B-FB18-2CC5-C77E-CB86BF2784F5}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\llmeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|d:\\unity projects\\ai-chat-demo\\assets\\scripts\\llmmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\llmmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|D:\\Unity Projects\\AI-Chat-Demo\\assets\\scripts\\llmmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\llmmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0DA78BA-96A6-A53D-1AF9-B318FB3C3E71}|undream.llmunity.Runtime.csproj|D:\\Unity Projects\\AI-Chat-Demo\\assets\\llmunity\\runtime\\llm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DA78BA-96A6-A53D-1AF9-B318FB3C3E71}|undream.llmunity.Runtime.csproj|solutionrelative:assets\\llmunity\\runtime\\llm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95F4CE2B-FB18-2CC5-C77E-CB86BF2784F5}|Assembly-CSharp-Editor.csproj|D:\\Unity Projects\\AI-Chat-Demo\\assets\\editor\\llmeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95F4CE2B-FB18-2CC5-C77E-CB86BF2784F5}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\llmeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F0DA78BA-96A6-A53D-1AF9-B318FB3C3E71}|undream.llmunity.Runtime.csproj|D:\\Unity Projects\\AI-Chat-Demo\\assets\\llmunity\\runtime\\llmcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,15 +23,11 @@
       "RelativeMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|solutionrelative:assets\\llmunity\\samples\\simpleinteraction\\simpleinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0DA78BA-96A6-A53D-1AF9-B318FB3C3E71}|undream.llmunity.Runtime.csproj|D:\\Unity Projects\\AI-Chat-Demo\\assets\\llmunity\\runtime\\llm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0DA78BA-96A6-A53D-1AF9-B318FB3C3E71}|undream.llmunity.Runtime.csproj|solutionrelative:assets\\llmunity\\runtime\\llm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6029AADA-E50A-1D35-DD4B-C8CBCBAD852A}|undream.llmunity.Editor.csproj|D:\\Unity Projects\\AI-Chat-Demo\\assets\\llmunity\\editor\\llmeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6029AADA-E50A-1D35-DD4B-C8CBCBAD852A}|undream.llmunity.Editor.csproj|solutionrelative:assets\\llmunity\\editor\\llmeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6029AADA-E50A-1D35-DD4B-C8CBCBAD852A}|undream.llmunity.Editor.csproj|d:\\unity projects\\ai-chat-demo\\assets\\llmunity\\editor\\propertyeditor.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{6029AADA-E50A-1D35-DD4B-C8CBCBAD852A}|undream.llmunity.Editor.csproj|D:\\Unity Projects\\AI-Chat-Demo\\assets\\llmunity\\editor\\propertyeditor.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{6029AADA-E50A-1D35-DD4B-C8CBCBAD852A}|undream.llmunity.Editor.csproj|solutionrelative:assets\\llmunity\\editor\\propertyeditor.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -50,8 +50,7 @@
               "RelativeToolTip": "Assets\\LLMUnity\\Editor\\PropertyEditor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T10:05:43.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T10:05:43.826Z"
             },
             {
               "$type": "Document",
@@ -63,12 +62,11 @@
               "RelativeToolTip": "Assets\\LLMUnity\\Editor\\LLMEditor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T08:33:28.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T08:33:28.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SimpleInteraction.cs",
               "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\LLMUnity\\Samples\\SimpleInteraction\\SimpleInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\LLMUnity\\Samples\\SimpleInteraction\\SimpleInteraction.cs",
@@ -76,12 +74,11 @@
               "RelativeToolTip": "Assets\\LLMUnity\\Samples\\SimpleInteraction\\SimpleInteraction.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAADwvxMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T08:38:18.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T08:38:18.93Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LLMCharacter.cs",
               "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\LLMUnity\\Runtime\\LLMCharacter.cs",
               "RelativeDocumentMoniker": "Assets\\LLMUnity\\Runtime\\LLMCharacter.cs",
@@ -89,12 +86,11 @@
               "RelativeToolTip": "Assets\\LLMUnity\\Runtime\\LLMCharacter.cs",
               "ViewState": "AgIAAIQAAAAAAAAAAAAAAMUCAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T08:31:26.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T08:31:26.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "LLM.cs",
               "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\LLMUnity\\Runtime\\LLM.cs",
               "RelativeDocumentMoniker": "Assets\\LLMUnity\\Runtime\\LLM.cs",
@@ -102,31 +98,29 @@
               "RelativeToolTip": "Assets\\LLMUnity\\Runtime\\LLM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T08:31:21.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T08:31:21.631Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "LLMEditor.cs",
               "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Editor\\LLMEditor.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\LLMEditor.cs",
               "ToolTip": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Editor\\LLMEditor.cs",
               "RelativeToolTip": "Assets\\Editor\\LLMEditor.cs",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAAANwAAAByAAAAAAAAAA==",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAAANwAAAByAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T04:29:40.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T04:29:40.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LLMManager.cs",
               "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Scripts\\LLMManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LLMManager.cs",
               "ToolTip": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Scripts\\LLMManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\LLMManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAAGYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T03:58:38.265Z",
               "EditorCaption": ""

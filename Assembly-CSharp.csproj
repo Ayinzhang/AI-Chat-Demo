@@ -64,7 +64,6 @@
     <Compile Include="Assets\Samples\4 - Subtitles\SubtitlesDemo.cs" />
     <Compile Include="Assets\Scripts\STTManager.cs" />
     <Compile Include="Assets\LLMUnity\Samples\KnowledgeBaseGame\KnowledgeBaseGame.cs" />
-    <Compile Include="Assets\Scripts\AutoGrowInputField.cs" />
     <Compile Include="Assets\LLMUnity\Samples\FunctionCalling\FunctionCalling.cs" />
     <Compile Include="Assets\LLMUnity\Samples\RAG\RAG_Sample.cs" />
     <Compile Include="Assets\LLMUnity\Samples\RAG\RAGUtils.cs" />
@@ -75,6 +74,7 @@
     <Compile Include="Assets\Samples\1 - Audio Clip\AudioClipDemo.cs" />
     <Compile Include="Assets\LLMUnity\Samples\ChatBot\ChatBot.cs" />
     <Compile Include="Assets\Samples\5 - Streaming\StreamingSampleMic.cs" />
+    <Compile Include="Assets\Scripts\TTSManager.cs" />
     <Compile Include="Assets\LLMUnity\Samples\RAG\RAGAndLLM_Sample.cs" />
     <Compile Include="Assets\Scripts\LLMManager.cs" />
     <Compile Include="Assets\LLMUnity\Samples\SimpleInteraction\SimpleInteraction.cs" />
