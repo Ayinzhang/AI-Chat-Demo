@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Unity Projects\\AI-Chat-Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|D:\\Unity Projects\\AI-Chat-Demo\\assets\\scripts\\sttmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sttmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|D:\\Unity Projects\\AI-Chat-Demo\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|D:\\Unity Projects\\AI-Chat-Demo\\assets\\scripts\\llmmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\llmmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|D:\\Unity Projects\\AI-Chat-Demo\\assets\\scripts\\sttmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sttmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D6193DC-273C-262E-AFE0-41B602BA30CF}|Assembly-CSharp.csproj|D:\\Unity Projects\\AI-Chat-Demo\\assets\\scripts\\ttsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T03:53:10.653Z",
               "EditorCaption": ""
@@ -73,26 +73,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LLMManager.cs",
               "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Scripts\\LLMManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LLMManager.cs",
               "ToolTip": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Scripts\\LLMManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\LLMManager.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAADIAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAawEUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T03:58:38.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "STTManager.cs",
               "DocumentMoniker": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Scripts\\STTManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\STTManager.cs",
               "ToolTip": "D:\\Unity Projects\\AI-Chat-Demo\\Assets\\Scripts\\STTManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\STTManager.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAAEMAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAEIAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T02:54:59.746Z",
               "EditorCaption": ""
