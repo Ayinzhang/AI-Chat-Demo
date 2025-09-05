@@ -10,6 +10,7 @@ using Whisper.Native;
 
 public class STTManager : MonoBehaviour
 {
+    [HideInInspector] public GameManager gm;
     public enum ModelType { Tiny, Base, Small, Medium, Large };
     [Header("Model")]
     [Tooltip("模型位于StreamingAssets/Whisper中")]
@@ -46,11 +47,6 @@ public class STTManager : MonoBehaviour
     [Tooltip("麦克风输入设备名（留空使用默认设备）")]
     public string micDevice = null;
 
-    [Header("UI")]
-    public Button startStopButton;
-    public InputField outputField; // 用于展示增量文本（可为空）
-    public string currentText = "";// 当前识别文本（增量）
-
     WhisperWrapper whisper;
     WhisperParams wparams;
 
@@ -66,9 +62,9 @@ public class STTManager : MonoBehaviour
     bool isStreaming, isInferencing; float nextInferTime;
     readonly ConcurrentQueue<Action> mainThread = new();
 
-    void Awake()
+    void Start()
     {
-        _ = InitModel(); startStopButton?.onClick.AddListener(ToggleStartStop);
+        _ = InitModel(); gm.voiceButton?.onClick.AddListener(VoiceStartStop);
         if (micDevice == null) micDevice = Microphone.devices[Microphone.devices.Length - 1];
     }
 
@@ -120,7 +116,7 @@ public class STTManager : MonoBehaviour
         wparams.AudioCtx = 0;
     }
 
-    public async void ToggleStartStop()
+    public async void VoiceStartStop()
     {
         if (isStreaming) StopStreaming();
         else await StartStreaming();
@@ -133,7 +129,7 @@ public class STTManager : MonoBehaviour
 
         isStreaming = true;
         nextInferTime = Time.realtimeSinceStartup + stepSec;
-        startStopButton.onClick.Invoke();
+        gm.sendButton.onClick.Invoke();
 
         Debug.Log("[Whisper] Streaming started.");
         return Task.CompletedTask;
@@ -144,7 +140,7 @@ public class STTManager : MonoBehaviour
         if (!isStreaming) return;
 
         isStreaming = isInferencing = false;
-        StopMic(); startStopButton.onClick.Invoke();
+        StopMic(); gm.sendButton.onClick.Invoke();
 
         Debug.Log("[Whisper] Streaming stopped.");
     }
@@ -232,7 +228,7 @@ public class STTManager : MonoBehaviour
         {
             var res = await whisper.GetTextAsync(samples, frequency, channels, wparams);
             string text = res != null ? res.Result : "";
-            mainThread.Enqueue(() => { currentText = text; if (outputField != null) outputField.text = currentText; });// 将结果派发回主线程（避免跨线程操作UI）
+            mainThread.Enqueue(() => { if (gm.inputField != null) gm.inputField.text += text; });// 将结果派发回主线程（避免跨线程操作UI）
         }
         catch (Exception e) { mainThread.Enqueue(() => Debug.LogException(e)); }
         finally { isInferencing = false; }

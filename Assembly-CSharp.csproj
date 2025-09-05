@@ -75,6 +75,7 @@
     <Compile Include="Assets\LLMUnity\Samples\ChatBot\ChatBot.cs" />
     <Compile Include="Assets\Samples\5 - Streaming\StreamingSampleMic.cs" />
     <Compile Include="Assets\Scripts\TTSManager.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\LLMUnity\Samples\RAG\RAGAndLLM_Sample.cs" />
     <Compile Include="Assets\Scripts\LLMManager.cs" />
     <Compile Include="Assets\LLMUnity\Samples\SimpleInteraction\SimpleInteraction.cs" />
