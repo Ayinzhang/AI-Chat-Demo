@@ -61,13 +61,13 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\LLMUnity\Editor\LLMBuildProcessor.cs" />
-    <Compile Include="Assets\LLMUnity\Editor\LLMCallerEditor.cs" />
-    <Compile Include="Assets\LLMUnity\Editor\PropertyEditor.cs" />
-    <Compile Include="Assets\LLMUnity\Editor\LLMEditor.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Editor\PropertyEditor.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Editor\LLMCallerEditor.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Editor\LLMEditor.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Editor\LLMBuildProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\LLMUnity\Editor\undream.llmunity.Editor.asmdef" />
+    <None Include="Assets\AIChatDemo\Plugins\LLMUnity\Editor\undream.llmunity.Editor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

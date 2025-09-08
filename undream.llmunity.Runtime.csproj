@@ -9,8 +9,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{F0DA78BA-96A6-A53D-1AF9-B318FB3C3E71}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -62,32 +61,30 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\LLMUnity\Runtime\LLMEmbedder.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\ResumingWebClient.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Assets\LLMUnity\Runtime\LLMInterface.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\LLMManager.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\LLMCaller.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\LLMLib.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\RAG\SentenceSplitter.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\LLMGGUF.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\LLMChatTemplates.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\RAG\WordSplitter.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\LLMUtils.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\LLMBuilder.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\RAG\RAG.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\RAG\Chunking.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\LLMCharacter.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\RAG\DBSearch.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\RAG\TokenSplitter.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\LLM.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\LLMUnitySetup.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\RAG\SimpleSearch.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\RAG\Search.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\RAG\TokenSplitter.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\RAG\RAG.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\RAG\WordSplitter.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\LLMChatTemplates.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\LLM.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\RAG\DBSearch.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\ResumingWebClient.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\LLMCharacter.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\LLMCaller.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\RAG\SimpleSearch.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\LLMUnitySetup.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\LLMLib.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\LLMGGUF.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\RAG\Chunking.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\RAG\Search.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\LLMInterface.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\LLMManager.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\LLMUtils.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\RAG\SentenceSplitter.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\LLMEmbedder.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\LLMBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\LLMUnity\Runtime\undream.llmunity.Runtime.asmdef" />
+    <None Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\undream.llmunity.Runtime.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

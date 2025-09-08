@@ -61,12 +61,12 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\LLMUnity\Tests\Runtime\TestSearch.cs" />
-    <Compile Include="Assets\LLMUnity\Tests\Runtime\TestLLMChatTemplates.cs" />
-    <Compile Include="Assets\LLMUnity\Tests\Runtime\TestLLM.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Tests\Runtime\TestSearch.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Tests\Runtime\TestLLMChatTemplates.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Tests\Runtime\TestLLM.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\LLMUnity\Tests\Runtime\undream.llmunity.Runtime.Tests.asmdef" />
+    <None Include="Assets\AIChatDemo\Plugins\LLMUnity\Tests\Runtime\undream.llmunity.Runtime.Tests.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

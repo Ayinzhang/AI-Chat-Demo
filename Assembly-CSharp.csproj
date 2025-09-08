@@ -61,58 +61,58 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Samples\4 - Subtitles\SubtitlesDemo.cs" />
-    <Compile Include="Assets\Scripts\STTManager.cs" />
-    <Compile Include="Assets\LLMUnity\Samples\KnowledgeBaseGame\KnowledgeBaseGame.cs" />
-    <Compile Include="Assets\LLMUnity\Samples\FunctionCalling\FunctionCalling.cs" />
-    <Compile Include="Assets\LLMUnity\Samples\RAG\RAG_Sample.cs" />
-    <Compile Include="Assets\LLMUnity\Samples\RAG\RAGUtils.cs" />
-    <Compile Include="Assets\LLMUnity\Samples\MultipleCharacters\MultipleCharacters.cs" />
-    <Compile Include="Assets\Samples\2 - Microphone\MicrophoneDemo.cs" />
-    <Compile Include="Assets\Samples\3 - Languages\LanguagesDemo.cs" />
-    <Compile Include="Assets\LLMUnity\Samples\ChatBot\Bubble.cs" />
-    <Compile Include="Assets\Samples\1 - Audio Clip\AudioClipDemo.cs" />
-    <Compile Include="Assets\LLMUnity\Samples\ChatBot\ChatBot.cs" />
-    <Compile Include="Assets\Samples\5 - Streaming\StreamingSampleMic.cs" />
-    <Compile Include="Assets\Scripts\TTSManager.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\LLMUnity\Samples\RAG\RAGAndLLM_Sample.cs" />
-    <Compile Include="Assets\Scripts\LLMManager.cs" />
-    <Compile Include="Assets\LLMUnity\Samples\SimpleInteraction\SimpleInteraction.cs" />
+    <Compile Include="Assets\AIChatDemo\Scripts\LLMManager.cs" />
+    <Compile Include="Assets\AIChatDemo\Scripts\TTSManager.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Samples\RAG\RAGAndLLM_Sample.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Samples\ChatBot\ChatBot.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Samples\RAG\RAG_Sample.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Samples\SimpleInteraction\SimpleInteraction.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Samples\ChatBot\Bubble.cs" />
+    <Compile Include="Assets\AIChatDemo\Scripts\STTManager.cs" />
+    <Compile Include="Assets\AIChatDemo\Scripts\GameManager.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Samples\RAG\RAGUtils.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Samples\FunctionCalling\FunctionCalling.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Samples\MultipleCharacters\MultipleCharacters.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Samples\KnowledgeBaseGame\KnowledgeBaseGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-cuda-cu12.2.0\llama.cpp.LICENSE.txt" />
+    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-noavx\llama.cpp.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-noavx\undreamai_windows-noavx.dll" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-noavx\llama.cpp.LICENSE.txt" />
+    <None Include="Assets\AIChatDemo\Plugins\Whisper\Plugins\Windows\ggml.dll" />
+    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-avx\llama.cpp.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-cuda-cu12.2.0\llamafile.LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-avx2\llama.cpp.LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\macos-acc\llama.cpp.LICENSE.txt" />
-    <None Include="Assets\LLMUnity\Samples\RAG\hamlet_project_gutenberg.txt" />
+    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\android\llama.cpp.LICENSE.txt" />
+    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\visionos\llama.cpp.LICENSE.txt" />
+    <None Include="Assets\AIChatDemo\Plugins\Whisper\Plugins\Windows\ggml-base.dll" />
+    <None Include="Assets\AIChatDemo\Plugins\Whisper\Plugins\Windows\ggml-cpu.dll" />
+    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-avx2\undreamai_windows-avx2.dll" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-avx2\llama.cpp.LICENSE.txt" />
+    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\ios\llama.cpp.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-avx512\llama.cpp.LICENSE.txt" />
+    <None Include="Assets\AIChatDemo\Plugins\LLMUnity\Samples\RAG\hamlet_project_gutenberg.txt" />
+    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-avx2\llama.cpp.LICENSE.txt" />
+    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-avx\undreamai_windows-avx.dll" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-vulkan\llama.cpp.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-hip\undreamai_windows-hip.dll" />
-    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-avx\llama.cpp.LICENSE.txt" />
+    <None Include="Assets\AIChatDemo\Plugins\Whisper\Plugins\Windows\libwhisper.dll" />
+    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-vulkan\llama.cpp.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-hip\llama.cpp.LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\android\llama.cpp.LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-avx\undreamai_windows-avx.dll" />
-    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-cuda-cu12.2.0\llama.cpp.LICENSE.txt" />
+    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-cuda-cu12.2.0\llamafile.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-archchecker\archchecker.dll" />
-    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-noavx\llama.cpp.LICENSE.txt" />
+    <None Include="Assets\AIChatDemo\Plugins\Whisper\Plugins\Windows\ggml-vulkan.dll" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-vulkan\vulkan-1.dll" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-hip\llama.cpp.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-vulkan\undreamai_windows-vulkan.dll" />
-    <None Include="Assets\LLMUnity\Resources\usearch\windows\libusearch_c.dll" />
-    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-cuda-cu12.2.0\llamafile.LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-avx2\undreamai_windows-avx2.dll" />
-    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-avx512\llama.cpp.LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\ios\llama.cpp.LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\visionos\llama.cpp.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\macos-no_acc\llama.cpp.LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-vulkan\llama.cpp.LICENSE.txt" />
+    <None Include="Assets\AIChatDemo\Plugins\LLMUnity\Resources\usearch\windows\libusearch_c.dll" />
+    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-avx\llama.cpp.LICENSE.txt" />
+    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\macos-acc\llama.cpp.LICENSE.txt" />
+    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-avx512\llama.cpp.LICENSE.txt" />
+    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\linux-cuda-cu12.2.0\llama.cpp.LICENSE.txt" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-avx512\undreamai_windows-avx512.dll" />
     <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-cuda-cu12.2.0\undreamai_windows-cuda-cu12.2.0.dll" />
-    <None Include="Assets\StreamingAssets\undreamai-v1.2.6-llamacpp\windows-avx\llama.cpp.LICENSE.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1255,10 +1255,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="com.whisper.unity.editor">
-      <HintPath>Library\ScriptAssemblies\com.whisper.unity.editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Collections.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1323,10 +1319,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="com.whisper.unity">
-      <HintPath>Library\ScriptAssemblies\com.whisper.unity.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1377,17 +1369,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Cloud.Unum.USearch.csproj">
-      <Project>{811A597E-6C42-4C39-4EAD-894B103580E3}</Project>
-      <Name>Cloud.Unum.USearch</Name>
+    <ProjectReference Include="undream.llmunity.Runtime.csproj">
+      <Project>{F0DA78BA-96A6-A53D-1AF9-B318FB3C3E71}</Project>
+      <Name>undream.llmunity.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.whisper.unity.editor.csproj">
+      <Project>{7FA0EFDD-1B71-4AA1-35A3-94EE5B91C743}</Project>
+      <Name>com.whisper.unity.editor</Name>
     </ProjectReference>
     <ProjectReference Include="undream.llmunity.Editor.csproj">
       <Project>{6029AADA-E50A-1D35-DD4B-C8CBCBAD852A}</Project>
       <Name>undream.llmunity.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="undream.llmunity.Runtime.csproj">
-      <Project>{F0DA78BA-96A6-A53D-1AF9-B318FB3C3E71}</Project>
-      <Name>undream.llmunity.Runtime</Name>
+    <ProjectReference Include="com.whisper.unity.csproj">
+      <Project>{EE958E9C-2164-71C4-93F0-BA8402E7F626}</Project>
+      <Name>com.whisper.unity</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cloud.Unum.USearch.csproj">
+      <Project>{811A597E-6C42-4C39-4EAD-894B103580E3}</Project>
+      <Name>Cloud.Unum.USearch</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

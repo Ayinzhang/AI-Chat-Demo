@@ -61,13 +61,13 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\LLMUnity\Runtime\RAG\usearch\USearchException.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\RAG\usearch\USearchTypes.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\RAG\usearch\NativeMethods.cs" />
-    <Compile Include="Assets\LLMUnity\Runtime\RAG\usearch\USearchIndex.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\RAG\usearch\USearchTypes.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\RAG\usearch\USearchIndex.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\RAG\usearch\USearchException.cs" />
+    <Compile Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\RAG\usearch\NativeMethods.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\LLMUnity\Runtime\RAG\usearch\Cloud.Unum.USearch.asmdef" />
+    <None Include="Assets\AIChatDemo\Plugins\LLMUnity\Runtime\RAG\usearch\Cloud.Unum.USearch.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
